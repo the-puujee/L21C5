@@ -57,5 +57,3 @@ if st.button("送信"):
             answer = get_response(expert_type, user_input)
             st.success("回答：")
             st.write(answer)
-
-st.write("APIキーの確認:", st.secrets.get("OPENAI_API_KEY"))
